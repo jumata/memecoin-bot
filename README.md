@@ -44,21 +44,14 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
    git clone https://github.com/tu-usuario/memecoin-bot.git
    cd memecoin-bot
 
-
-
-
 ---
 
-Este **README.md** está diseñado para ser un solo archivo completo que puedes subir a GitHub. Incluye:
+Configura las variables de entorno:
+Crea un archivo .env en la raíz del proyecto con el siguiente contenido:
 
-1. **Descripción del Proyecto**: Explica qué hace el bot.
-2. **Estructura de Archivos**: Muestra cómo está organizado el código.
-3. **Dependencias**: Listado de las bibliotecas necesarias.
-4. **Instalación**: Pasos detallados para instalar y configurar el proyecto.
-5. **Funcionamiento**: Descripción general de cómo trabaja el bot.
-6. **Variables de Entorno**: Explica cómo configurar las variables para conectarse a la base de datos y la API.
-7. **Licencia**: Información de licencia.
-
-Este **README.md** es una excelente manera de documentar el proyecto y hacer que otros desarrolladores (o tu futuro yo) puedan entender cómo funciona y cómo configurarlo rápidamente.
-
-Si necesitas hacer más cambios o ajustes, ¡avísame!
+BIRDEYE_API_KEY=tu_clave_de_api_de_birdeye
+DB_USER=tu_usuario_de_postgresql
+DB_HOST=localhost
+DB_DATABASE=memecoin_db
+DB_PASSWORD=tu_contraseña_de_postgresql
+DB_PORT=5432
