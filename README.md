@@ -41,7 +41,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 1. **Clona el repositorio**:
 
    ```bash
-   git clone https://github.com/tu-usuario/memecoin-bot.git
+   git clone https://github.com/jumata/memecoin-bot.git
    cd memecoin-bot
 
 ---
