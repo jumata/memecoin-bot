@@ -47,9 +47,18 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
 
 
 
+---
 
-Cómo funciona el bot
-	1.	Obtención de datos: El bot realiza solicitudes a la API de Birdeye para obtener los tokens de Solana. Los primeros 50 tokens se obtienen en la primera consulta. Luego, el bot usa la paginación para continuar obteniendo los siguientes tokens en bloques de 50 hasta que todos los tokens sean recuperados.
-	2.	Almacenamiento en la base de datos: Los datos de cada token se insertan en la tabla solana_tokens en la base de datos PostgreSQL. Si un token ya existe, sus datos se actualizan.
-	3.	Historial de tokens: Los datos históricos de cada token, como el precio y la liquidez, se insertan en la tabla solana_token_history para realizar un seguimiento de los cambios a lo largo del tiempo.
-	4.	Retrasos entre consultas: Para evitar sobrecargar la API, se introduce un retraso de 2 segundos entre cada solicitud.
+Este **README.md** está diseñado para ser un solo archivo completo que puedes subir a GitHub. Incluye:
+
+1. **Descripción del Proyecto**: Explica qué hace el bot.
+2. **Estructura de Archivos**: Muestra cómo está organizado el código.
+3. **Dependencias**: Listado de las bibliotecas necesarias.
+4. **Instalación**: Pasos detallados para instalar y configurar el proyecto.
+5. **Funcionamiento**: Descripción general de cómo trabaja el bot.
+6. **Variables de Entorno**: Explica cómo configurar las variables para conectarse a la base de datos y la API.
+7. **Licencia**: Información de licencia.
+
+Este **README.md** es una excelente manera de documentar el proyecto y hacer que otros desarrolladores (o tu futuro yo) puedan entender cómo funciona y cómo configurarlo rápidamente.
+
+Si necesitas hacer más cambios o ajustes, ¡avísame!
