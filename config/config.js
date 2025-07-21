@@ -1,8 +1,6 @@
 require('dotenv').config();
 
 module.exports = {
-  BIRDEYE_API_KEY: process.env.BIRDEYE_API_KEY,
-  BASE_URL: 'https://api.birdeye.so/v1',
-  BINANCE_API_KEY: process.env.BINANCE_API_KEY,
-  // Otras configuraciones
+  BIRDEYE_API_KEY: process.env.BIRDEYE_API_KEY,  // Tu clave API de Birdeye
+  BASE_URL: 'https://api.birdeye.so/v1',         // URL base de la API de Birdeye
 };
