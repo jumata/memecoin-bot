@@ -45,13 +45,3 @@ Sigue estos pasos para configurar y ejecutar el proyecto:
    cd memecoin-bot
 
 ---
-
-Configura las variables de entorno:
-Crea un archivo .env en la raíz del proyecto con el siguiente contenido:
-
-BIRDEYE_API_KEY=tu_clave_de_api_de_birdeye
-DB_USER=tu_usuario_de_postgresql
-DB_HOST=localhost
-DB_DATABASE=memecoin_db
-DB_PASSWORD=tu_contraseña_de_postgresql
-DB_PORT=5432
